@@ -10,7 +10,7 @@ import DashboardButton from '../Components/DashboardButton.vue'
                          class="w-32 h-32 rounded-full border border-4 border-white select-none">
                     <span class="font-bold text-white text-5xl select-none">Katalam</span>
                 </div>
-                <div class="grid grid-cols-3 lg:grid-cols-6 justify-items-center gap-6">
+                <div class="grid grid-cols-2 lg:grid-cols-5 justify-items-center gap-6">
                     <DashboardButton link="https://twitter.com/brunogoerss">
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter"
                              width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
@@ -62,17 +62,17 @@ import DashboardButton from '../Components/DashboardButton.vue'
                             <path d="M16 12v1.5a2.5 2.5 0 0 0 5 0v-1.5a9 9 0 1 0 -5.5 8.28"/>
                         </svg>
                     </DashboardButton>
-                    <DashboardButton>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-key" width="30"
-                             height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"
-                             stroke-linecap="round" stroke-linejoin="round">
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                            <circle cx="8" cy="15" r="4"/>
-                            <line x1="10.85" y1="12.15" x2="19" y2="4"/>
-                            <line x1="18" y1="5" x2="20" y2="7"/>
-                            <line x1="15" y1="8" x2="17" y2="10"/>
-                        </svg>
-                    </DashboardButton>
+<!--                    <DashboardButton link="">-->
+<!--                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-key" width="30"-->
+<!--                             height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"-->
+<!--                             stroke-linecap="round" stroke-linejoin="round">-->
+<!--                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>-->
+<!--                            <circle cx="8" cy="15" r="4"/>-->
+<!--                            <line x1="10.85" y1="12.15" x2="19" y2="4"/>-->
+<!--                            <line x1="18" y1="5" x2="20" y2="7"/>-->
+<!--                            <line x1="15" y1="8" x2="17" y2="10"/>-->
+<!--                        </svg>-->
+<!--                    </DashboardButton>-->
                 </div>
             </div>
         </div>
