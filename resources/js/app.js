@@ -1,18 +1,17 @@
 import {createApp, h} from 'vue'
 import {createInertiaApp} from '@inertiajs/inertia-vue3'
 import {InertiaProgress} from '@inertiajs/progress'
+import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
 
-import {ZiggyVue} from "ziggy";
-import {Ziggy} from "./ziggy";
+import '../css/app.css';
 
 InertiaProgress.init()
 
 createInertiaApp({
-    resolve: name => require(`./Pages/${name}`),
+    resolve: (name) => resolvePageComponent(`./Pages/${name}.vue`, import.meta.glob('./Pages/**/*.vue')),
     setup({el, App, props, plugin}) {
         createApp({render: () => h(App, props)})
             .use(plugin)
-            .use(ZiggyVue, Ziggy)
             .mixin({methods: {route}})
             .mount(el)
     },

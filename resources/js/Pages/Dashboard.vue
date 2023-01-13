@@ -1,5 +1,5 @@
 <script setup>
-import DashboardButton from '../Components/DashboardButton'
+import DashboardButton from '../Components/DashboardButton.vue'
 </script>
 <template>
     <div class="grid grid-cols-5 min-h-screen bg-gradient-to-r from-cyan-500/40 to-blue-500/50">
