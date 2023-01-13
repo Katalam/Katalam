@@ -4,7 +4,7 @@ import DashboardButton from '../Components/DashboardButton.vue'
 <template>
     <div class="grid grid-cols-5 min-h-screen bg-gradient-to-r from-cyan-500/40 to-blue-500/50">
         <div class="col-start-2 col-span-3">
-            <div class="h-full grid content-center space-y-16 justify-center">
+            <div class="h-full grid content-center justify-center">
                 <div class="flex flex-col items-center justify-center space-y-4">
                     <img src="https://avatars.githubusercontent.com/katalam" alt=""
                          class="w-32 h-32 rounded-full border border-4 border-white select-none">
