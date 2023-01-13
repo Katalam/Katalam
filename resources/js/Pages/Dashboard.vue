@@ -1,5 +1,8 @@
+<script setup>
+import DashboardButton from '../Components/DashboardButton'
+</script>
 <template>
-    <div class="grid grid-cols-5 min-h-screen">
+    <div class="grid grid-cols-5 min-h-screen bg-gradient-to-r from-cyan-500/40 to-blue-500/50">
         <div class="col-start-2 col-span-3">
             <div class="h-full grid content-center space-y-16 justify-center">
                 <div class="flex flex-col items-center justify-center space-y-4">
@@ -75,28 +78,3 @@
         </div>
     </div>
 </template>
-
-<script>
-import DashboardButton from '../Components/DashboardButton'
-
-export default {
-    name: 'Dashboard',
-
-    components: {
-        DashboardButton
-    },
-
-    props: {},
-
-    data() {
-        return {};
-    },
-
-    computed: {},
-
-    methods: {},
-
-    mounted() {
-    },
-};
-</script>
