@@ -8,7 +8,7 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                'sans': ['Nunito', 'sans-serif']
+                'sans': ['Gloria Hallelujah', 'sans-serif']
             }
         },
     },

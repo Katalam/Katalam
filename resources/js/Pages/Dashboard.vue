@@ -2,15 +2,25 @@
 import DashboardButton from '../Components/DashboardButton.vue'
 </script>
 <template>
-    <div class="grid grid-cols-5 min-h-screen bg-gradient-to-r from-cyan-500/40 to-blue-500/50">
+    <div class="grid grid-cols-5 min-h-screen text-xl">
         <div class="col-start-2 col-span-3">
             <div class="h-full grid content-center space-y-16 justify-center">
-                <div class="flex flex-col items-center justify-center space-y-4">
-                    <img src="https://avatars.githubusercontent.com/katalam" alt=""
-                         class="w-32 h-32 rounded-full border border-4 border-white select-none">
-                    <span class="font-bold text-white text-5xl select-none">Katalam</span>
+                <div class="flex flex-col items-center justify-center space-y-4 mt-4 lg:mt-0">
+                    <h1 class="text-2xl">I'm Katalam</h1>
                 </div>
-                <div class="grid grid-cols-2 lg:grid-cols-5 justify-items-center gap-6">
+                <div class="flex flex-col items-center justify-center space-y-4 text-center leading-10">
+                    <p class="font-bold">I write code.</p>
+                    <p>I'm a mid level backend developer using mainly Laravel.</p>
+                    <p>I'm using Vue3 when tasked with pushing pixels.</p>
+                    <p>I'm using PHPStorm with IDEAVim.</p>
+                </div>
+                <div class="flex flex-col items-center justify-center space-y-4 text-center leading-10">
+                    <h2 class="font-bold">Books i read</h2>
+                    <p>Domain-Driven Design with Laravel by Martin Joo (<a href="https://domain-driven-design-laravel.com">https://domain-driven-design-laravel.com</a>)</p>
+                    <p>Design for Developers by Adrian Twarog (<a href="https://enhanceui.com">https://enhanceui.com</a>)</p>
+                    <p>Advanced Inertia by Boris Lepikhin (<a href="https://advanced-inertia.com">https://advanced-inertia.com</a>)</p>
+                </div>
+                <div class="grid grid-cols-2 sm:grid-cols-4 justify-items-center gap-6">
                     <DashboardButton link="https://twitter.com/brunogoerss">
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter"
                              width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
@@ -53,26 +63,6 @@ import DashboardButton from '../Components/DashboardButton.vue'
                             <circle fill="currentColor" cx="16.5" cy="9.5" r="1"/>
                         </svg>
                     </DashboardButton>
-                    <DashboardButton link="mailto:info@katalam.com">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-at" width="30"
-                             height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"
-                             stroke-linecap="round" stroke-linejoin="round">
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                            <circle cx="12" cy="12" r="4"/>
-                            <path d="M16 12v1.5a2.5 2.5 0 0 0 5 0v-1.5a9 9 0 1 0 -5.5 8.28"/>
-                        </svg>
-                    </DashboardButton>
-<!--                    <DashboardButton link="">-->
-<!--                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-key" width="30"-->
-<!--                             height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"-->
-<!--                             stroke-linecap="round" stroke-linejoin="round">-->
-<!--                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>-->
-<!--                            <circle cx="8" cy="15" r="4"/>-->
-<!--                            <line x1="10.85" y1="12.15" x2="19" y2="4"/>-->
-<!--                            <line x1="18" y1="5" x2="20" y2="7"/>-->
-<!--                            <line x1="15" y1="8" x2="17" y2="10"/>-->
-<!--                        </svg>-->
-<!--                    </DashboardButton>-->
                 </div>
             </div>
         </div>
