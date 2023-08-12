@@ -2,7 +2,6 @@
 
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\ShortUrlController;
-use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
