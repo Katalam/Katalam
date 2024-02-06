@@ -11,7 +11,7 @@
     @vite(['resources/js/app.js'])
 </head>
 <body class="antialiased w-full bg-baby-blue">
-<div class="max-w-7xl mx-auto bg-brown min-h-screen">
+<div class="max-w-5xl mx-auto bg-brown min-h-screen">
     @inertia
 </div>
 </body>
