@@ -8,7 +8,9 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                'brown': '#B5997F',
+                'brown': '#F7E5D9',
+                'baby-blue': '#8C9E9E',
+                'pencil': '#040100',
             },
             fontFamily: {
                 'sans': ['Newsreader', 'sans-serif']

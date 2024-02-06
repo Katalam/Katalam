@@ -10,7 +10,9 @@
     <link href="https://fonts.bunny.net/css?family=newsreader:200,300,400,500,600,700,800,900" rel="stylesheet" />
     @vite(['resources/js/app.js'])
 </head>
-<body class="antialiased w-full min-h-screen bg-brown" style="">
-@inertia
+<body class="antialiased w-full bg-baby-blue">
+<div class="max-w-7xl mx-auto bg-brown min-h-screen">
+    @inertia
+</div>
 </body>
 </html>
