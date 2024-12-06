@@ -1,7 +1,7 @@
 <?php
 
 use App\Http\Controllers\Controller;
-use App\Http\Controllers\ShortUrlController;
+use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,12 +15,4 @@ use App\Http\Controllers\ShortUrlController;
 */
 
 Route::get('/', Controller::class)->name('home');
-Route::controller(ShortUrlController::class)
-    ->prefix('urls')
-    ->as('short-url.')
-    ->group(static function () {
-        Route::get('/', 'create')->name('create');
-        Route::post('/', 'store')->name('store');
-        Route::get('/{shortUrl:slug}', 'show')->name('show');
-    });
 

@@ -7,11 +7,11 @@
     @inertiaHead
     @routes
     <link rel="preconnect" href="https://fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=newsreader:200,300,400,500,600,700,800,900" rel="stylesheet" />
+    <link href="https://fonts.bunny.net/css?family=ibm-plex-mono:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" />
     @vite(['resources/js/app.js'])
 </head>
-<body class="antialiased w-full bg-baby-blue">
-<div class="max-w-5xl mx-auto bg-brown min-h-screen">
+<body class="antialiased w-full bg-stone-900 text-stone-100 font-mono">
+<div class="max-w-3xl mx-auto min-h-screen">
     @inertia
 </div>
 </body>
