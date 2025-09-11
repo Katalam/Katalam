@@ -10,9 +10,7 @@
     <link href="https://fonts.bunny.net/css?family=ibm-plex-mono:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" />
     @vite(['resources/js/app.js'])
 </head>
-<body class="antialiased w-full bg-stone-900 text-stone-100 font-mono">
-<div class="max-w-3xl mx-auto min-h-screen">
-    @inertia
-</div>
+<body class="font-serif bg-stone-300 text-stone-800">
+@inertia
 </body>
 </html>
