@@ -1,7 +1,3 @@
-<script setup lang="ts">
-import { Link } from "@inertiajs/inertia-vue3";
-</script>
-
 <template>
     <h2>Books I've read that I can recommend</h2>
     <ul>
@@ -44,46 +40,46 @@ import { Link } from "@inertiajs/inertia-vue3";
     <ul>
         <li>
             Domain-Driven Design with Laravel by Martin Joo (
-            <Link
+            <a
                 target="_blank"
                 href="https://domain-driven-design-laravel.com"
                 >https://domain-driven-design-laravel.com
-            </Link>
+            </a>
             )
         </li>
         <li>
             Design for Developers by Adrian Twarog (
-            <Link target="_blank" href="https://enhanceui.com"
+            <a target="_blank" href="https://enhanceui.com"
                 >https://enhanceui.com
-            </Link>
+            </a>
             )
         </li>
         <li>
             Advanced Inertia by Boris Lepikhin (
-            <Link target="_blank" href="https://advanced-inertia.com"
+            <a target="_blank" href="https://advanced-inertia.com"
                 >https://advanced-inertia.com
-            </Link>
+            </a>
             )
         </li>
         <li>
             Battle Ready Laravel by Ash Allen (
-            <Link target="_blank" href="https://battle-ready-laravel.com/"
+            <a target="_blank" href="https://battle-ready-laravel.com/"
                 >https://battle-ready-laravel.com/
-            </Link>
+            </a>
             )
         </li>
         <li>
             Design for Developer by Adrian Twarog & George Moller (
-            <Link target="_blank" href="https://www.enhanceui.com/"
+            <a target="_blank" href="https://www.enhanceui.com/"
                 >https://www.enhanceui.com/
-            </Link>
+            </a>
             )
         </li>
         <li>
             Performance with Laravel by Martin Joo (
-            <Link target="_blank" href="https://laravel-performance.com/"
+            <a target="_blank" href="https://laravel-performance.com/"
                 >https://laravel-performance.com/
-            </Link>
+            </a>
             )
         </li>
     </ul>
