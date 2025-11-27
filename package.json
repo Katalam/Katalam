@@ -6,6 +6,7 @@
     },
     "devDependencies": {
         "@tailwindcss/postcss": "^4.1.13",
+        "@tailwindcss/typography": "^0.5.19",
         "@vitejs/plugin-vue": "^4.0.0",
         "@vue/compiler-sfc": "^3.2.33",
         "axios": "^0.25",
