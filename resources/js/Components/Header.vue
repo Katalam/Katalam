@@ -15,8 +15,11 @@ const date = new Date().toDateString();
             >
                 Hello there!
             </h1>
-            <p class="text-base mt-2 font-medium text-zinc-500 dark:text-zinc-400">
-                I'm Bruno, a passionate software developer from germany, with a love for clean code and tested solutions.
+            <p
+                class="text-base mt-2 font-medium text-zinc-500 dark:text-zinc-400"
+            >
+                I'm Bruno, a passionate software developer from germany, with a
+                love for clean code and tested solutions.
             </p>
         </div>
         <div class="flex items-center justify-center mt-6 gap-2">
