@@ -1,4 +1,4 @@
-<h2 align="center">Katalam<br>Mid-Senior PHP Developer</h2>
+<h2 align="center">Katalam<br>Senior PHP Developer</h2>
 
 ### Languages
 
